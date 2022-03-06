@@ -41,18 +41,27 @@
 }
 
 #page-wrapper {
-	width: 960px;
+  width: 960px;
+	margin: 0 auto;
+}
+
+#page-wrapper-flex {
+  width: 50%;
 	margin: 0 auto;
 }
 
 #header-box {
   width: 960px;
   margin: 0 auto;
-  
+}
+
+#header-box-flex {
+  width: 50%;
+  margin: 0 auto;
 }
 
 #header h1 {
-	top:20px;
+	top: 1.25em;
   font-size: 3em;
 	font-family: 'Montserrat', sans-serif;
   text-align: center;
