@@ -48,6 +48,7 @@
 #page-wrapper-flex {
   width: 50%;
 	margin: 0 auto;
+  max-width: 960px;
 }
 
 #header-box {
@@ -58,6 +59,7 @@
 #header-box-flex {
   width: 50%;
   margin: 0 auto;
+  max-width: 960px;
 }
 
 #header h1 {
@@ -67,6 +69,7 @@
   text-align: center;
   width: 100%;
   margin-bottom: 0;
+  max-width: 960px;
 }
 
 #header p {
