@@ -51,13 +51,6 @@
   max-width: 960px;
 }
 
-#flexbox {
-  display: flex;
-  flex-direction: row;
-  flex-wrap:wrap;
-  justify-content: space-between;
-}
-
 #header-box {
   width: 960px;
   margin: 0 auto;
@@ -120,10 +113,6 @@ p {
   padding:2px 40px;
 }
 
-.twocolumnsection {
-  width: 45%;
-}
-
 .headingbubble {
   border-style: none none solid none;
   padding: 2px;
@@ -142,4 +131,17 @@ iframe{
 	height: 80px;
 	clear: both;
   text-align: center;
+}
+
+@media screen and (min-width: 960px) {
+  #flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+  }
+  
+  .twocolumnsection {
+    width: 45%;
+  }
 }
