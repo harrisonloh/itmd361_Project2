@@ -113,6 +113,17 @@ p {
   padding:2px 40px;
 }
 
+.headingbubble {
+  border-style: none none solid none;
+  padding: 2px;
+  border-width: 2px;
+  border-color: black;
+}
+
+.rightfloat {
+  float:right;
+}
+
 iframe{
   margin-top: 1em;
 }
